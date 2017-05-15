@@ -1,0 +1,12 @@
+/*
+ entry is the main starting point where webpack will begin bundling
+
+ output is where the bundled output ultimately is placed
+
+ loaders in webpack are tools that can look at different file types and process those files
+ and give webpack the output to bundle into the single app.js file's output
+ the above loader says if you see a .ts file, use the ts-loader to transpile into js before bundling into the app.js
+
+ resolve tells webpack how to resolve modules
+ What are the file extensions that webpack should be looking at
+ */
